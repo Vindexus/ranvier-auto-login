@@ -4,8 +4,8 @@
   "description": "Script for automatically logging new connections into an account for easier development.",
   "main": "index.js",
   "scripts": {
-    "postinstall": "node addtoranvier.js",
-    "postuninstall": "node removefromranvier.js"
+    "postinstall": "node ./node_modules/ranvier-npm-installer/addtoranvier.js ranvier-auto-login",
+    "postuninstall": "node ./node_modules/ranvier-npm-installer/removefromranvier.js ranvier-auto-login"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
     "ranvier"
   ],
   "author": "Colin \"Vindexus\" Kierans",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ranvier-npm-installer": "file:../ranvier-npm-installer"
+  }
 }
