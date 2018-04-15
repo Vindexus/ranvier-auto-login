@@ -1,0 +1,19 @@
+{
+  "name": "ranvier-auto-login",
+  "version": "1.0.0",
+  "description": "Script for automatically logging new connections into an account for easier development.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "ln -s node_modules/ranvier-auto-login bundles/ranvier-auto-login; npm run addtoranvier",
+    "addtoranvier": "node addtoranvier.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/Vindexus/ranvier-auto-login"
+  },
+  "keywords": [
+    "ranvier"
+  ],
+  "author": "Colin \"Vindexus\" Kierans",
+  "license": "MIT"
+}
