@@ -1,6 +1,9 @@
 'use strict';
+const path = require('path')
 
-const config = require('../config.json');
+const dir = path.resolve('../config.json')
+console.log('dir',dir);
+const config = require(dir);
 
 /**
  * MOTD event
