@@ -4,7 +4,7 @@
   "description": "Script for automatically logging new connections into an account for easier development.",
   "main": "index.js",
   "scripts": {
-    "postinstall": "ln -s node_modules/ranvier-auto-login bundles/ranvier-auto-login; npm run addtoranvier",
+    "postinstall": "ln -s node_modules/ranvier-auto-login bundles/ranvier-auto-login",
     "addtoranvier": "node addtoranvier.js"
   },
   "repository": {
