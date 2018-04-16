@@ -17,6 +17,6 @@
   "author": "Colin \"Vindexus\" Kierans",
   "license": "MIT",
   "dependencies": {
-    "ranvier-npm-installer": "file:../ranvier-npm-installer"
+    "ranvier-npm-installer": "Vindexus/ranvier-npm-installer"
   }
 }
